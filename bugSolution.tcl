@@ -1,0 +1,1 @@
+proc goodproc {a b} {if {![info exists a] || ![info exists b]} {return -code error "Incorrect number of arguments"} {if {$a == 0} {return 1} {return $a + $b}} 
