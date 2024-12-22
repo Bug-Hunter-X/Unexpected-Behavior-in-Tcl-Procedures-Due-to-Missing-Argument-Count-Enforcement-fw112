@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle issue in Tcl: the lack of strict argument count checking in procedures. The `badproc` procedure in `bug.tcl` showcases this problem. Calling it with fewer arguments causes an error, highlighting the need for robust argument handling to prevent unexpected behavior and improve code reliability.
